@@ -129,7 +129,7 @@
                     <a href="https://github.com/Whasnat" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors duration-300">GitHub</a>
                     <a href="https://www.linkedin.com/in/whasnat/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors duration-300">LinkedIn</a>
                 </div>
-                <p className="text-slate-500 text-sm">Built by Waliul Hasnat</p>
+                <p className="text-slate-500 text-sm">Built by Waliul Hasnat with a little help from AI.</p>
                 <p className="text-slate-500 text-sm">&copy; 2025 Waliul Hasnat. All rights reserved.</p>
             </footer>
         );
@@ -189,9 +189,9 @@
                             <h3 className="text-xl font-bold text-slate-100">Software Engineer, QA <a href="https://www.therapservices.net/" target="_blank" rel="noopener noreferrer" className="text-indigo-400">@ Therap BD Ltd.</a></h3>
                             <p className="text-sm text-slate-400 mb-3">November 2022 – Present</p>
                             <ul className="list-disc list-inside text-slate-400 space-y-2">
-                                <li>Spearhead manual and automated testing efforts across multiple projects, including comprehensive test planning, execution, and defect management.</li>
-                                <li>Conduct rigorous BAT (Build Acceptance Testing), Regression, Integration, and Smoke Testing to ensure software stability before release.</li>
-                                <li>Develop and maintain test automation frameworks using tools such as Playwright and Selenium, improving test efficiency and coverage.</li>
+                                <li>Spearhead manual and automated testing efforts across multiple projects.</li>
+                                <li>Conduct rigorous BAT, Regression, Integration, and Smoke Testing.</li>
+                                <li>Develop and maintain test automation frameworks using Playwright and Selenium.</li>
                             </ul>
                         </div>
                         <div className="relative">
@@ -199,9 +199,9 @@
                             <h3 className="text-xl font-bold text-slate-100">Back End Developer <a href="https://www.anwargroup.com/" target="_blank" rel="noopener noreferrer" className="text-indigo-400">@ Anwar Enterprise Systems</a></h3>
                             <p className="text-sm text-slate-400 mb-3">January 2022 – November 2022</p>
                             <ul className="list-disc list-inside text-slate-400 space-y-2">
-                                <li>Contributed as a core developer in the newly established Anwar Technology Ltd., delivering backend services using Spring Boot for enterprise-level applications.</li>
-                                <li>Developed scalable and high-performance APIs, optimizing server-side functions for Android applications that streamlined internal operations.</li>
-                                <li>Assisted in the architecture and backend infrastructure design for mission-critical applications.</li>
+                                <li>Delivered backend services using Spring Boot for enterprise-level applications.</li>
+                                <li>Developed scalable APIs, optimizing server-side functions for Android applications.</li>
+                                <li>Assisted in backend infrastructure design for mission-critical applications.</li>
                             </ul>
                         </div>
                         <div className="relative">
@@ -209,7 +209,7 @@
                             <h3 className="text-xl font-bold text-slate-100">ServiceNow Developer (Remote) <span className="text-indigo-400">@ Ripton Solutions</span></h3>
                             <p className="text-sm text-slate-400 mb-3">February 2019 – January 2022</p>
                             <ul className="list-disc list-inside text-slate-400 space-y-2">
-                                <li>Designed and implemented custom modules in ITSM, ITBM, and CSM, optimizing workflows for government clients.</li>
+                                <li>Designed and implemented custom modules in ITSM, ITBM, and CSM for government clients.</li>
                                 <li>Managed multiple full-lifecycle projects from inception to deployment.</li>
                                 <li>Automated routine tasks, improving operational efficiency by 40%.</li>
                             </ul>
@@ -279,12 +279,12 @@
                 <section className="py-24">
                     <h2 className="text-3xl font-bold mb-12 text-slate-100 flex items-center"><span className="gradient-text mr-4">05.</span> Education</h2>
                     <div className="max-w-2xl">
-                        <div className="mb-6 p-4 border border-slate-700 rounded-lg bg-slate-800/50">
+                        <div className="mb-6 p-6 border border-slate-700 rounded-lg bg-slate-800/50 transition-shadow duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
                             <h3 className="text-lg font-bold text-slate-100">Bachelor of Science in Computer Science and Engineering</h3>
                             <p className="text-indigo-400">American International University Bangladesh (AIUB)</p>
                             <p className="text-sm text-slate-400">Graduated: 2018</p>
                         </div>
-                        <div className="p-4 border border-slate-700 rounded-lg bg-slate-800/50">
+                        <div className="p-6 border border-slate-700 rounded-lg bg-slate-800/50 transition-shadow duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
                             <h3 className="text-lg font-bold text-slate-100">Higher Secondary & Secondary School Certificate</h3>
                             <p className="text-indigo-400">Milestone College</p>
                             <p className="text-sm text-slate-400">Graduated: 2013 (HSC) & 2011 (SSC)</p>
@@ -394,3 +394,34 @@
     </script>
 </body>
 </html>
+
+<!-- ---
+
+### **IMPORTANT: Your Final Setup Step**
+
+To make the form work, you need to create a free Formspree endpoint.
+
+1.  Go to [**formspree.io**](https://formspree.io/).
+2.  Click **"Sign Up"** and create a new account using your email address, `whrahat@gmail.com`.
+3.  Click **"+ New Form"**.
+4.  Give your form a name (e.g., "Portfolio Contact") and make sure the "Recipient Email" is correct. Click **"Create Form"**.
+5.  Formspree will give you a unique URL that looks something like this:
+    `https://formspree.io/f/xxxxxxxx`
+6.  **Copy that URL.**
+7.  In the code above, find the `<form>` tag inside the `ContactPage` component and **replace `YOUR_UNIQUE_ID`** with your actual code from Formspree.
+
+For example, if your ID is `mqkvpvvy`, you would change this:
+
+```javascript
+// Before
+<form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST">
+```
+
+To this:
+
+```javascript
+// After
+<form action="https://formspree.io/f/mqkvpvvy" method="POST">
+```
+
+After that, your contact form will be fully active and ready to send emails directly to your inb -->
